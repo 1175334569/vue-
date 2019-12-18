@@ -18,4 +18,41 @@
              obj={}             //错误
              obj.name='yong';   //正确，只修改了内部对象的属性
             
-	- 在ES6开发中，优先使用const，只有需要改变的变量时才使用let 
+	- 在ES6开发中，优先使用const，只有需要改变的变量时才使用let
+	
+- ##   字面量的增强写法
+	- 属性增强写法
+	
+			//ES5的写法
+			const name = 'liang';
+			const  age = 18;
+			const obj={
+				name : name,
+				age : age,
+				}
+			//增强写法
+			const obj={
+				name,     //key为name，值为liang
+				age,      //key为age,值为18
+				}
+	
+	- 函数的增强写法
+	
+			//ES5的写法
+			const obj={
+				run: function(){
+
+					};
+				eat: function(){
+
+					};
+				}
+			//增强写法
+			const obj={
+				run(){
+
+					};
+				eat(){
+
+					};
+				}
