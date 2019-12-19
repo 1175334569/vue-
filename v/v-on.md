@@ -25,3 +25,10 @@
 				methods:{
 					btnClick(abc,event);   //可以获取到参数以及event事件对象
 					}
+
+- ## v-on的一些修饰符
+  - `.stop` //阻止冒泡 ，js中的event.stopPropagation();
+  - `.prevent` //阻止默认事件，js中的event.preventDefault();
+  - `@keyup`监听键盘事件
+  - `.native` //监听组件根元素的原生事件
+  - `.once`//只触发一次回调

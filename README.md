@@ -4,6 +4,9 @@
   - [v-model](v/v-model.md)
   - [v-html](v/v-html.md)
   - [v-on](v/v-on.md)
+  - [v-if、v-else-if、v-else](v/v-if.md)
+  - [v-show](v/v-show.md)
+  - [v-for](v/v-for.md)
 
 - ### 选项/数据
   - [computed](v/computed.md)
