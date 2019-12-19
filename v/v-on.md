@@ -16,3 +16,12 @@
 				//如果调用时小括号没有省略，则test为undified
 					}
 				}
+
+  - 情况二：方法传入时，我们要传入参数，同时还需要event对象。  
+     - 使用`$event`获取。
+     		
+				<button @click='btnClick(123,$event)'></button>
+				//new Vue
+				methods:{
+					btnClick(abc,event);   //可以获取到参数以及event事件对象
+					}
