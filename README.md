@@ -11,6 +11,9 @@
 
 - ### 选项/数据
   - [computed](v/computed.md)
+- ### 组件
+  - [component组件化](v-component组件化.md)
+  - [component的使用](v-component的使用.md)
 
 - ### 其他
   - [ES6语法](v/ES6.md)
