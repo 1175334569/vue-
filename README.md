@@ -23,6 +23,8 @@
 - ### webpack  
   - [webpack插件](v/webpack插件.md)
   - [搭建本地服务器](v/搭建本地服务器.md)
+- ### vue-router
+  - [vue-router的基本使用](v/vue-router.md)
 - ### 其他
   - [ES6语法](v/ES6.md)
   - [js捕获、冒泡事件](v/jsBubble.md)
